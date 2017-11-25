@@ -1,0 +1,40 @@
+{
+  "name": "js-language-forms",
+  "version": "1.2.0",
+  "description": "JS muscle memory building forms",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmstead/jsLearnerForms.git"
+  },
+  "author": "Chris Stead <cmstead@gmail.com> (http://www.chrisstead.com/)",
+  "license": "MPL",
+  "bugs": {
+    "url": "https://github.com/cmstead/jsLearnerForms/issues"
+  },
+  "quokka": {
+    "plugins": [
+      "quokka-mocha-bdd",
+      "quokka-signet-explorer"
+    ],
+    "quokka-mocha-bdd": {
+      "interface": "bdd"
+    }
+  },
+  "homepage": "https://github.com/cmstead/jsLearnerForms",
+  "devDependencies": {
+    "approvals": "^2.1.2",
+    "approvals-config-factory": "^1.0.0",
+    "chai": "^4.0.2",
+    "eslint": "^3.19.0",
+    "mocha": "^3.4.2",
+    "mockery": "^2.1.0",
+    "quokka-mocha-approvals-helper": "^1.0.1",
+    "quokka-mocha-bdd": "^1.3.1",
+    "quokka-signet-explorer": "^1.3.0",
+    "sinon": "^2.3.5"
+  }
+}
